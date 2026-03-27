@@ -1,0 +1,66 @@
+/* General Reset */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #FFB6C1, #FF69B4);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: white;
+}
+
+/* Navigation */
+nav {
+    background: linear-gradient(to left, #FF69B4, #FFB6C1);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin: 10px 0;
+}
+
+/* Products */
+.product {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background: #FFB6C1;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
